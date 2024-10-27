@@ -1,0 +1,67 @@
+#main {
+    padding: 3vh 4vw 3vh 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+}
+
+#pesquisa form {
+    display: flex;
+    align-items: center;
+}
+
+#pesquisa input {
+    padding: 5px 0px 4px 10px;
+    border: 2px solid #fdc221;
+    border-radius: 30px;
+    width: 30vw;
+    font-size: 1.5rem;
+}
+
+#pesquisa button {
+    background-color: transparent;
+    border: 2px solid #fdc221;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 30px;
+}
+
+#pesquisa button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#catalogo .filme {
+    background-color: #20459a;
+    color: #fdc221;
+    border: 2px inset #fdc221;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 15rem;
+    height: 20rem;
+    margin-inline: 30px;
+}
+
+#catalogo .filme img {
+    min-width: 15rem;
+    max-width: 15rem;
+    max-height: 15rem;
+    border: 1px solid #fdc221;
+
+}
+
+#catalogo .filme abbr {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100%;
+}

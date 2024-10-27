@@ -1,0 +1,23 @@
+#main {
+    padding: 5vh 5vw 5vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#alter {
+    margin-inline: 3.5rem;
+    text-decoration: none;
+    color: #fdc221;
+    text-align: center;
+}
+
+#alter:hover {
+    color: #c5971a;
+}

@@ -1,0 +1,1 @@
+Trabalho do 2Bimestre de Techweb, Essencialmente criar uma simples sistema de gestão de locadora.
