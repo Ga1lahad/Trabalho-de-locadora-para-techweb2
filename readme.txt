@@ -1,1 +1,4 @@
-Trabalho do 2Bimestre de Techweb, Essencialmente criar uma simples sistema de gestão de locadora.
+2B. Segundo Bimestre
+
+4B. Quarto Bimestre
+SQL -> src/app/scripts/tb_4b.sql

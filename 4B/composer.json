@@ -1,0 +1,15 @@
+{
+    "name": "aluno/4b",
+    "require": {
+        "doctrine/orm": "^3.3",
+        "symfony/cache": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Persistence\\": "",
+            "app\\classes\\": "src/app/classes/",
+            "app\\controllers\\": "src/app/controllers/",
+            "app\\daos\\": "src/app/daos/"
+        }
+    }
+}

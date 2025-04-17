@@ -1,0 +1,24 @@
+<div id="main">
+    <form action="">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text">
+        <label for="ano">Ano</label>
+        <input id="ano" name="ano" type="text">
+        <label for="duracao">Duracao</label>
+        <input id="duracao" name="duracao" type="number">
+        <label for="foto">Url da imagen</label>
+        <input id="foto" name="foto" type="text">
+        <label for="sinopse">Sinopse</label>
+        <input id="sinopse" name="sinopse" type="text">
+
+        <select name="estilo" id="estilo">
+            <?php
+            foreach ($estiloDao->listarTodos as $row) {
+                echo '<option value="' . $row->id . '">' . $row->nome . '</option>';
+            }
+            ?>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+</div>
